@@ -1,3 +1,5 @@
+const pckg = require('../../package.json')
+
 module.exports = {
   userId: 2711774,
   togglApiToken: process.env.TOGGL_API_TOKEN,
@@ -9,5 +11,6 @@ module.exports = {
   },
   projectIds: {
     jbHunt: 148921129
-  }
+  },
+  appVersion: pckg.version
 }
