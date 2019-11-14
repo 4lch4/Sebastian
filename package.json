@@ -1,0 +1,23 @@
+{
+  "name": "npm-module-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alcha/NPM-Module-Template.git"
+  },
+  "author": {
+    "name": "Alcha",
+    "email": "hello@alcha.org",
+    "url": "https://hasslefree.solutions"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Alcha/NPM-Module-Template/issues"
+  },
+  "homepage": "https://github.com/Alcha/NPM-Module-Template#readme"
+}
