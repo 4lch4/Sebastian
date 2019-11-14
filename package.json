@@ -1,14 +1,15 @@
 {
-  "name": "npm-module-template",
+  "name": "sebastian",
+  "displayName": "Sebastian",
   "version": "0.0.1",
-  "description": "",
+  "description": "My timekeeping assistant.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "sebastian": "./src/bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alcha/NPM-Module-Template.git"
+    "url": "git+https://github.com/Alcha/Sebastian.git"
   },
   "author": {
     "name": "Alcha",
@@ -17,7 +18,13 @@
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/Alcha/NPM-Module-Template/issues"
+    "url": "https://github.com/Alcha/Sebastian/issues"
   },
-  "homepage": "https://github.com/Alcha/NPM-Module-Template#readme"
+  "homepage": "https://github.com/Alcha/Sebastian#readme",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "inquirer": "^7.0.0",
+    "kleur": "^3.0.3",
+    "toggl-api": "^1.0.1"
+  }
 }
