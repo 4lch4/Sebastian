@@ -5,7 +5,7 @@
   "description": "My timekeeping assistant.",
   "main": "index.js",
   "bin": {
-    "sebastian": "./src/bin/index.js"
+    "sebastian": "./bin/index.js"
   },
   "repository": {
     "type": "git",

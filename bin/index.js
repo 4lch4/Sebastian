@@ -1,11 +1,18 @@
 #!/usr/bin/env node
 const program = require('commander')
-const lib = require('../lib')
+const lib = new (require('../lib'))
 
 program.version(lib.config.appVersion)
 
-program.command('shift').alias('s').action(() => lib.shift())
-program.command('list').alias('l').action(() => lib.list())
+program.command('shift').alias('s').action(() => {
+  lib.shift()
+  lib.exit()
+})
+
+program.command('list').alias('l').action(() => {
+  lib.list()
+  lib.exit()
+})
 
 program.parse(process.argv)
 

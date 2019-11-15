@@ -2,6 +2,7 @@ dependencies:
   commander: 4.0.1
   inquirer: 7.0.0
   kleur: 3.0.3
+  simple-node-logger: 18.12.23
   toggl-api: 1.0.1
 lockfileVersion: 5.1
 packages:
@@ -478,6 +479,13 @@ packages:
     dev: false
     resolution:
       integrity: sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+  /simple-node-logger/18.12.23:
+    dependencies:
+      lodash: 4.17.15
+      moment: 2.24.0
+    dev: false
+    resolution:
+      integrity: sha512-HmqRYDNfdHcrV81UoMQij4mCOn1vjh3GdJJbWeb7aW72vEDU1SStbZI9uV4Tv0zXZ8ADDT3i7keGPZ73n6h4lA==
   /sshpk/1.16.1:
     dependencies:
       asn1: 0.2.4
@@ -604,4 +612,5 @@ specifiers:
   commander: ^4.0.1
   inquirer: ^7.0.0
   kleur: ^3.0.3
+  simple-node-logger: ^18.12.23
   toggl-api: ^1.0.1
