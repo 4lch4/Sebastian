@@ -5,13 +5,11 @@ const lib = new (require('../lib'))
 program.version(lib.config.appVersion)
 
 program.command('shift').alias('s').action(() => {
-  lib.shift()
-  lib.exit()
+  lib.shift().then(() => lib.exit())
 })
 
 program.command('list').alias('l').action(() => {
-  lib.list()
-  lib.exit()
+  lib.list().then(() => lib.exit())
 })
 
 program.parse(process.argv)
