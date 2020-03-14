@@ -1,6 +1,6 @@
 dependencies:
   boxen: 4.1.0
-  commander: 4.0.1
+  commander: 5.0.0
   inquirer: 7.0.0
   kleur: 3.0.3
   simple-node-logger: 18.12.23
@@ -155,12 +155,12 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
-  /commander/4.0.1:
+  /commander/5.0.0:
     dev: false
     engines:
       node: '>= 6'
     resolution:
-      integrity: sha512-IPF4ouhCP+qdlcmCedhxX4xiGBPyigb8v5NeUp+0LyhwLgxMqyp3S0vl7TAPfS/hiP7FC3caI/PB9lTmP8r1NA==
+      integrity: sha512-JrDGPAKjMGSP1G0DUoaceEJ3DZgAfr/q6X7FVk4+U5KxUSKviYGM2k6zWkfyyBHy5rAtzgYJFa1ro2O9PtoxwQ==
   /core-util-is/1.0.2:
     dev: false
     resolution:
@@ -678,7 +678,7 @@ packages:
       integrity: sha512-NsmoXalsWVDMGupxZ5R08ka9flZjjiLvHVAWYOKtiKM8ujtZWr9cRffak+uSE48+Ob8ObalXpwyeUiyDD6QFgg==
 specifiers:
   boxen: ^4.1.0
-  commander: ^4.0.1
+  commander: ^5.0.0
   inquirer: ^7.0.0
   kleur: ^3.0.3
   simple-node-logger: ^18.12.23
