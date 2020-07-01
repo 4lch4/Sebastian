@@ -2,7 +2,7 @@ dependencies:
   boxen: 4.1.0
   commander: 4.0.1
   inquirer: 7.0.0
-  kleur: 3.0.3
+  kleur: 4.0.2
   simple-node-logger: 18.12.23
   toggl-api: 1.0.1
 lockfileVersion: 5.1
@@ -373,12 +373,12 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
-  /kleur/3.0.3:
+  /kleur/4.0.2:
     dev: false
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
+      integrity: sha512-FGCCxczbrZuF5CtMeO0xfnjhzkVZSXfcWK90IPLucDWZwskrpYN7pmRIgvd8muU0mrPrzy4A2RBGuwCjLHI+nw==
   /lodash/4.17.15:
     dev: false
     resolution:
@@ -680,6 +680,6 @@ specifiers:
   boxen: ^4.1.0
   commander: ^4.0.1
   inquirer: ^7.0.0
-  kleur: ^3.0.3
+  kleur: ^4.0.0
   simple-node-logger: ^18.12.23
   toggl-api: ^1.0.1
