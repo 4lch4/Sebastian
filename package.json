@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Alcha/Sebastian#readme",
   "dependencies": {
     "boxen": "^4.1.0",
-    "commander": "^4.0.1",
+    "commander": "^6.2.1",
     "inquirer": "^7.0.0",
     "kleur": "^3.0.3",
     "simple-node-logger": "^18.12.23",
