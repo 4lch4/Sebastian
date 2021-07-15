@@ -24,7 +24,7 @@
   "dependencies": {
     "boxen": "^4.1.0",
     "commander": "^4.0.1",
-    "inquirer": "^7.0.0",
+    "inquirer": "^8.1.2",
     "kleur": "^3.0.3",
     "simple-node-logger": "^18.12.23",
     "toggl-api": "^1.0.1"
