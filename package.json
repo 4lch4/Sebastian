@@ -1,0 +1,55 @@
+{
+  "name": "@4lch4/sebastian",
+  "displayName": "Sebastian",
+  "version": "0.0.0",
+  "description": "A CLI for simplifying my (@4lch4) life.",
+  "keywords": [
+    "4lch4"
+  ],
+  "homepage": "https://github.com/4lch4/Sebastian",
+  "bugs": {
+    "email": "bugs@4lch4.email",
+    "url": "https://github.com/4lch4/Sebastian/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/4lch4/Sebastian.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "type": "module",
+  "module": "./src/index.ts",
+  "files": [
+    "src",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "lint": "prettier -c .",
+    "pretty": "prettier --write .",
+    "start": "bun run src/index.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@4lch4/backpack": "^1.3.6"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.5",
+    "@types/node": "^20.11.16",
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-packagejson": "^2.4.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

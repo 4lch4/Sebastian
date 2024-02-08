@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    // #region Bun Recommended
+    // Enable options recommended by Bun.
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "allowJs": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+
+    /* Linting */
+    "skipLibCheck": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    // #endregion Bun Recommended
+
+    // #region Personal Preferences
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["*"]
+    },
+
+    "outDir": "dist",
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "downlevelIteration": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "pretty": true
+    // #endregion Personal Preferences
+  }
+}
