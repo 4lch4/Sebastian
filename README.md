@@ -4,4 +4,6 @@ Sebastian is a CLI utility for a wide variety of tasks. It's primary purpose is 
 
 ## Name
 
-The name is a reference to the butler from the show "Black Butler". The butler is a jack of all trades and is always there to help the main character, Ciel Phantomhive, with whatever he needs. This is the same role that I hope this tool will fill for me.
+The name is a reference to the butler from the anime [Black Butler][0]. The butler is a jack of all trades and is always there to help the main character, Ciel Phantomhive, with whatever he needs. As I continue to work on this project, I hope that this tool will eventually fill a similar role for me.
+
+[0]: https://en.wikipedia.org/wiki/Black_Butler
