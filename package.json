@@ -24,7 +24,7 @@
   "type": "module",
   "module": "./src/index.ts",
   "files": [
-    "src",
+    "dist",
     "package.json",
     "README.md",
     "LICENSE"
