@@ -28,11 +28,7 @@
       "~/*": ["*"]
     },
 
-    "outDir": "dist",
-    "rootDir": "src",
-    "experimentalDecorators": true,
     "removeComments": false,
-    "downlevelIteration": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
