@@ -45,34 +45,38 @@ async function runCommand(srcPath: string, destPath: string) {
 
   if (!srcPath.endsWith('.png')) {
     console.warn(
-      yellow(`[index#runCommand]: "${srcPath}" is not a PNG file, treating as a directory...`),
+      yellow(`[compress#runCommand]: "${srcPath}" is not a PNG file, treating as a directory...`),
     )
 
     cmdArgs.push('--recursive', '--threads', threads)
   }
 
   console.log(
-    gray(`[index#runCommand]: Running command: oxipng ${[...cmdArgs, srcPath].join(' ')}`),
+    gray(`[compress#runCommand]: Running command: oxipng ${[...cmdArgs, srcPath].join(' ')}`),
   )
 
   const { stderr, stdout, exitCode } = await execa('oxipng', [...cmdArgs, srcPath])
 
   if (exitCode === 0) {
     console.log(
-      yellow(`[index#runCommand]: Successfully compressed "${basename(srcPath)}" to "${destPath}"`),
+      yellow(
+        `[compress#runCommand]: Successfully compressed "${basename(srcPath)}" to "${destPath}"`,
+      ),
     )
 
-    if (stdout.length > 0) console.log(green(`[index#runCommand]: stdout: ${stdout}`))
+    if (stdout.length > 0) console.log(green(`[compress#runCommand]: stdout: ${stdout}`))
 
     if (keep) {
-      console.log(gray(`[index#runCommand]: Keeping original file in "${dirname(srcPath)}"`))
+      console.log(gray(`[compress#runCommand]: Keeping original file in "${dirname(srcPath)}"`))
     } else if (srcPath.endsWith('.png')) {
-      console.log(yellow(`[index#runCommand]: Removing original file "${srcPath}"`))
+      console.log(yellow(`[compress#runCommand]: Removing original file "${srcPath}"`))
 
       await $`rm ${srcPath}`
-    } else console.log(yellow(`[index#runCommand]: Source is a directory, skipping deletion.`))
+    } else console.log(yellow(`[compress#runCommand]: Source is a directory, skipping deletion.`))
   } else {
-    console.error(`[index#runCommand]: Command failed w/ non-zero exit code (${exitCode}), stderr:`)
+    console.error(
+      `[compress#runCommand]: Command failed w/ non-zero exit code (${exitCode}), stderr:`,
+    )
     console.error(stderr)
   }
 }
