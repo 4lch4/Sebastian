@@ -45,6 +45,7 @@
     "dayjs": "^1.11.10",
     "execa": "^8.0.1",
     "inquirer": "^9.2.14",
+    "ora": "^8.0.1",
     "picocolors": "^1.0.0"
   },
   "devDependencies": {
